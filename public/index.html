@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Content Designer</title>
+    <style>
+      body {
+        margin: 0;
+        background: #0f172a;
+        color: #e2e8f0;
+        font-family: "Inter", system-ui, sans-serif;
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        box-sizing: border-box;
+      }
+      .card {
+        max-width: 1600px;
+        width: 100%;
+        background: #111827;
+        border-radius: 24px;
+        padding: 40px;
+        box-shadow: 0 20px 60px rgba(15, 23, 42, 0.6);
+      }
+      canvas {
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+        border: 2px solid #1e293b;
+        display: block;
+      }
+      .note {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #94a3b8;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
