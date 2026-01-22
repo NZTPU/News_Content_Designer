@@ -1,0 +1,14 @@
+{
+  "name": "news-content-designer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "express": "^4.19.2"
+  }
+}
